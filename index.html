@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <link rel="icon" href="image3.jpg" />
+    <meta name="description" content="Web Developer Portfolio" />
+    <title>Deep Kishor - Portfolio</title>
+    <link rel="apple-touch-icon" href="image3.jpg" />
     <link rel="stylesheet" href="style.css">
     <!-- Add icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -27,7 +30,7 @@
             <div class="social-icons">
                 <a href="https://www.facebook.com/deep.kihor.98" target="_blank"><i class="fa fa-facebook"></i></a>
                 <a href="https://www.instagram.com/deep_ahir_1/" target="_blank"><i class="fa fa-instagram"></i></a>
-                <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a href="https://github.com/deepahir" target="_blank"><i class="fa fa-github"></i></a>
                 <a href="https://www.linkedin.com/in/deep-ahir-838839217" target="_blank"><i
                         class="fa fa-linkedin"></i></a>
 
@@ -48,10 +51,10 @@
 
         <!-- footer -->
         <div class="footer">
-            <p>&copy; Copyright 2023 <br>Designed by <a href="" target="_blank">Deep Kishor</a>
+            <p>&copy; Copyright 2023 <br>Designed by <a href="https://deepahir.github.io/developer/"
+                    target="_blank">Deep Kishor</a>
             </p>
         </div>
-
 
     </header>
 
@@ -85,7 +88,7 @@
 
                 <!-- image col -->
                 <div class="img-col">
-                    <img src="image1.jpg" alt="..">
+                    <img src="image4.jpg" alt="..">
                 </div>
 
                 <!-- information -->
@@ -98,7 +101,8 @@
                             <ul>
                                 <li><i class="fa-solid fa-angle-right"></i><strong>Birthday:</strong><span> 06 Jun,
                                         2002</span></li>
-                                <!-- <li><i class="fa-solid fa-angle-right"></i><strong>Website:</strong><span> www.riddhigupta.xyz</span></li> -->
+                                <li><i class="fa-solid fa-angle-right"></i><strong>Website:</strong><span>
+                                        https://deepahir.github.io/developer</span></li>
                                 <li><i class="fa-solid fa-angle-right"></i><strong>Mobile No:</strong> +91
                                     8160368124<span></span></li>
                                 <li><i class="fa-solid fa-angle-right"></i><strong>City:</strong><span> Rajkot</span>
@@ -258,7 +262,27 @@
 
             <div class="resume-row">
                 <!-- left cols  -->
+                <div class="resume-cols">
+                    <h2>Experience</h2>
+                    <h2>Oneonic Solutions</h2>
+                    <div class="my-edu">
+                        <h3>Shopify App Developer</h3>
+                        <span class="sp-box">May 2023 - Peresent</span>
+                        <p>Shopify API</p>
+                    </div>
+                    <div class="my-edu">
+                        <h3>Web Developer</h3>
+                        <span class="sp-box">May 2022 - April 2023</span>
+                        <p>Html, Css, Js, React Js, Advance PHP, Laravel , Shopify, DigitalOcean</p>
+                    </div>
 
+                </div>
+                <div class="resume-cols"></div>
+
+            </div>
+
+            <div class="resume-row">
+                <!-- left cols  -->
                 <div class="resume-cols">
                     <h2>Education</h2>
                     <div class="my-edu">
@@ -288,17 +312,13 @@
                         <p>Vandana School,Kalavad</p>
                     </div>
                 </div>
-
-
                 <!-- Right Cols -->
-
                 <div class="resume-cols">
                     <h2>Hobbies</h2>
                     <div class="hobby">
                         <h3>Driving</h3>
                         <p>Driving has always fascinated me since my childhood.</p>
                     </div>
-
                     <div class="hobby">
                         <h3>Music</h3>
                         <p>Listening to music always heals my soul to its core. I've always been fond of peaceful songs,
@@ -520,13 +540,13 @@
 
                 <div class="contact-right">
 
-                    <form action="">
-
+                    <form id="my-form" action="https://formspree.io/f/mqkojkgo" method="POST">
                         <input type="text" name="name" id="name" placeholder="Your Name">
                         <input type="email" name="email" id="email" placeholder="Your Email">
                         <input type="text" name="subject" id="subject" placeholder="Subject">
                         <textarea name="msg" id="msg" rows="9" placeholder="Your Message"> </textarea>
                         <input type="submit" value="Send Message">
+                        <p id="my-form-status"></p>
                     </form>
 
 
