@@ -177,7 +177,7 @@ main{
 #home{
     height:100vh;
     width: 100%;
-    background-image: url("imag.jpg");
+    background-image: url("image3.jpg");
     background-size: cover;
     background-attachment: fixed;
     display: flex;
@@ -332,7 +332,7 @@ main{
 /* Mobile View */
 @media only screen and (max-width: 830px){
     #about{
-        padding: 50px 10px;
+        padding: 30px 20px 10px 20px;
     }
 
     .sub-para{
@@ -344,7 +344,7 @@ main{
         flex-direction: column ;
     }
     #about .about-col .img-col img{
-        width: 50%;
+        width: 70%;
     }
     #about .about-col .info-col h2{
         font-weight: 500;
@@ -423,13 +423,13 @@ main{
 
 /* Mobile View */
 
-@media only screen and (max-width: 450px){
-    #skill{
-        padding: 50px 15px;
-    }
+@media only screen and (max-width: 490px){
+    /* #skill{
+        padding: 30px 15px;
+    } */
     #skill .skill-row{
         grid-template-columns: repeat(1, 1fr);
-        grid-gap: 10px;
+        grid-gap: 18px;
     }
 }
 /* Skills Section End */
@@ -643,7 +643,7 @@ main{
 /* Mobile View */
 @media only screen and (max-width: 870px){
     #project{
-        padding: 50px 15px;
+        padding: 30px 15px;
     }
     
     #project .project-row1{
@@ -793,6 +793,37 @@ main{
  }
 
  /* Mobile View */
+ @media only screen and (max-width: 991px){
+    #project .project-row2 .project-cols{
+        padding: 0 4%;
+    }
+    #project .project-row1 .project-cols{
+        padding: 0 4%;
+    }
+ }
+@media only screen and (max-width: 880px){ 
+    .first {
+        order: 1;
+     } 
+    .second {
+        order: 2;
+     }  
+    .third {
+        order: 4;
+    } 
+    .fourth {
+        order: 3;
+    }
+    #resume{
+        padding: 30px 25px 20px 25px;
+    }
+    #skill {
+        padding: 35px 25px;
+    }
+    #about p{
+        padding-top: 20px;
+    }
+ }
  @media only screen and (max-width: 800px){
     #contact{
         padding: 50px ;
@@ -801,18 +832,35 @@ main{
         flex-direction: column;
         gap: 10px;
     }
+    img{
+        width: 100%;
+        height: auto;
+    }
  }
 
- @media only screen and(max-width: 400px){
+ @media only screen and (max-width: 567px){
+    #project .project-row2 .project-cols{
+        padding: 0 0%;
+    }
+    #project .project-row1 .project-cols{
+        padding: 0 0%;
+    }
+    #contact{
+        padding: 20px;
+    }
+    #resume .resume-row{
+        display: block;
+    } 
+ }
+
+ @media only screen and(max-width: 490px){
     #contact{
         padding: 50px 10px;
-
     }
     #contact .contact-row{
         flex-direction: column;
         gap: 50px;
     }
-
  }
 
 /* Contact section end */
